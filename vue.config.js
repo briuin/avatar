@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: "./",
+  publicPath: "/avatar",
   outputDir: "./docs",
   filenameHashing: false,
   chainWebpack: config => {
