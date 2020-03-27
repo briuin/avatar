@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="/avatar/img/logo.png" />
+    <img
+      alt="Vue logo"
+      src="https://briuin.github.io/avatar/static/images/logo.png"
+    />
   </div>
 </template>
 
