@@ -8,8 +8,6 @@
 
 <script lang="ts">
 import Avatar from "@/components/avatar.vue";
-import Avatars from "@dicebear/avatars";
-import sprites from "@dicebear/avatars-male-sprites";
 import { Component, Vue } from "vue-property-decorator";
 
 @Component({
@@ -18,9 +16,6 @@ import { Component, Vue } from "vue-property-decorator";
   }
 })
 export default class App extends Vue {
-  timelineState = this.$redux.globalEventDistributor.getState().timeline
-    .reducer;
-
   getTimelineState() {
     return this.$redux.globalEventDistributor.stores.find(
       (x: any) => x.getState().namespace === "timeline"
